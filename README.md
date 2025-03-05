@@ -9,7 +9,7 @@
 - [Tools used](#Tools-Used)
 - [Data cleaning & transformation](#Data-Cleaning-transformation)
 - [Exploratory Analysis](#Exploratory-Analysis)
-- [Dax measures Used](#Dax-Measures Used)
+- [Dax measures Used](#Dax-Measures-Used)
 - [Dashboard Output](#Final-Dashboard-Output)
 - [Summary of Insight](#roject Insight)
 
@@ -249,4 +249,4 @@ Avg traffic commute time = AVERAGE(Quality_of_life_africa[Traffic Commute Time V
 ```
 ## Final-Dashboard-Output
 Data was visualized via Interactive Power BI dashboard. 
-![Final Dashboard](Assets/Images/QoL Dashboard.png)
+![Final Dashboard](Assets/Images/QoL-Dashboard.png)
