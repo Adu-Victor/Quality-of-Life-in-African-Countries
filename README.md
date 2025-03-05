@@ -11,7 +11,7 @@
 - [Exploratory Analysis](#Exploratory-Analysis)
 - [Dax measures Used](#Dax-Measures-Used)
 - [Dashboard Output](#Final-Dashboard-Output)
-- [Insight](#Project-Insight)
+- [Insight & Conclusion](#Project-&-Insight)
 
 ## Introduction
 This portofolio project was targeted at providing solution for people who want to travel, invest or get comprehensive knowledge about the Quality of Life in African Sataes. Insights derived form the projects can help travels or investors in making data-driven decisions about the choice of country to visit or invest. Quality of life was measured with seven (7) indicators namely: **Cost of living, Safety Index, Healthcare Quality Index, Purchasing power, Property price to income ratio, pollution level and traffic commute time.**  
