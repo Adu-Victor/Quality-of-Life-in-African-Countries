@@ -2,4 +2,5 @@ title: Victor Adu
 logo: Assets/Images/Screenshot_20221113-190230.png
 shows_downloads: True
 remote_theme: pages-themes/modernist@v0.2.0
-plugins: - jekyll-remote-theme 
+plugins: 
+- jekyll-remote-theme 
