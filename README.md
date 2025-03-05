@@ -6,7 +6,7 @@
 
 - [Project Objectives](#Project Objectives)
 - [Data Source](#Data Source)
-- [Data cleaning](#Data Cleaning)
+- [Data cleaning & transformation](#Data Cleaning & transformation)
 - [Exploratory Analysis](#Exploratory Analysis)
 - [Dashboard Output](#Final Dashboard Output)
 - [Summary of Insight](#roject Insight)
@@ -14,8 +14,8 @@
 
 # Project Objectives
 1. Clean the data
-2. Extract only the countries from the African Continent
-3. Create a new column for sub-regions corresponding to each of the countries
+2. Create a new column for sub-regions corresponding to each of the countries
+3. Extract only the countries from the African Continent
 4. Connect data to Power BI
 5. Create measures using Dax in Powwer BI
 6. Build Dashborad
@@ -24,9 +24,10 @@
 # Data Source
 The data was downloaded from Kaggle. Click here to assess the data https://www.kaggle.com/datasets/ahmedmohamed2003/quality-of-life-for-each-country
 
-# Data Cleaning
+# Data Cleaning & transformation
 Data was cleaned using MysQL. Codes, below
 
+### SQL Query 1
 ```sql
 -- checking the information about the entire table
 SELECT count(*)
@@ -34,6 +35,7 @@ FROM INFORMATION_SCHEMA.COLUMNS
 where TABLE_NAME= "quality_of_life";
 ```
 
+### SQL Query 2
 ```sql
 -- Creating New column for sub_regions
 ALTER TABLE quality_of_life
@@ -72,3 +74,21 @@ SET sub_region = "Southern Africa"
 WHERE country IN ('Botswana','Eswatini', 'Gambia','Lesotho', 'Madagascar', 'Malawi','Mauritania', 'Mauritius', 'Mozambique', 'Namibia', 
 				'South Africa', 'Zambia', 'Zimbabwe');
 ```
+
+### SQL Query 3
+'''sql
+-- extracting Only African countries from the data
+CREATE VIEW qol_Africa AS
+	SELECT *
+	FROM 
+		quality_of_life
+	WHERE
+		sub_region IS NOT NULL;
+        
+-- Checking final selected dataset
+SELECT *
+FROM 
+	quality_of_life.qol_africa;
+ ```
+
+# Exploratory Analysis
