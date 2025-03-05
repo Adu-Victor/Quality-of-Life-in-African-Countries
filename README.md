@@ -1,3 +1,3 @@
-# SQL to Power BI Portfolio Project
-## Quality-of-Life-in-African-Countries
+# Quality-of-Life-in-African-Countries
 ---
+![Quality-Life-in-Africa] 
