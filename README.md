@@ -6,6 +6,7 @@
 
 - [Project Objectives](#Objectives)
 - [Data Source](#Data-Source)
+- [Tools used](#Tools-Used)
 - [Data cleaning & transformation](#Data-Cleaning-transformation)
 - [Exploratory Analysis](#Exploratory-Analysis)
 - [Dax measures Used](#Dax-Measures Used)
@@ -22,10 +23,16 @@
 6. Build Dashborad
 7. Document insights
  
-## Data-Source
+## Data Source
 The data was downloaded from Kaggle. Click here to assess the data https://www.kaggle.com/datasets/ahmedmohamed2003/quality-of-life-for-each-country
 
-## Data-Cleaning-and-transformation
+## Tools Used
+1. MySQL database for data cleaning, transformation & analysis
+2. Power BI for creating interactive Dashboard
+3. Github repository and pages for hosting project documents
+4. Microsoft Word for insight documentation 
+
+## Data Cleaning and Transformation
 Data was cleaned using MysQL. Codes, below
 
 ### SQL Query 1
@@ -91,7 +98,7 @@ SELECT *
 FROM 
 	quality_of_life.qol_africa;
  ```
-## Exploratory-Analysis
+## Exploratory Analysis
 Some queries were run to find anwers to series of questions that provides better understanding of the data. These queries were executed to explore details regarding of the seven(7) indicators used for measuring the quality of life.
 
 ### SQL Query 4 (Analysis on cost of living)
@@ -242,4 +249,4 @@ Avg traffic commute time = AVERAGE(Quality_of_life_africa[Traffic Commute Time V
 ```
 ## Final-Dashboard-Output
 Data was visualized via Interactive Power BI dashboard. 
-![Final Dashboard](Assets/Images/QoL Dashboard.png "Dashboard for Quality of Life in African Countries")
+![Final Dashboard](Assets/Images/QoL Dashboard.png)
