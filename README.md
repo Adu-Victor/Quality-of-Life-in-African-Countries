@@ -2,17 +2,17 @@
 ---
 ![Quality of Life](Assets/Images/map-of-africa.png)
 
-# Table of Content
+## Table of Content
 
 - [Project Objectives](#Objectives)
 - [Data Source](#Data-Source)
-- [Data cleaning & transformation](#Data Cleaning & transformation)
-- [Exploratory Analysis](#Exploratory Analysis)
-- [Dashboard Output](#Final Dashboard Output)
+- [Data cleaning & transformation](#Data-Cleaning-transformation)
+- [Exploratory Analysis](#Exploratory-Analysis)
+- [Dashboard Output](#Final-Dashboard-Output)
 - [Summary of Insight](#roject Insight)
 
 
-# Objectives
+## Objectives
 1. Clean the data
 2. Create a new column for sub-regions corresponding to each of the countries
 3. Extract only the countries from the African Continent
@@ -21,10 +21,10 @@
 6. Build Dashborad
 7. Document insights
  
-# Data Source
+## Data-Source
 The data was downloaded from Kaggle. Click here to assess the data https://www.kaggle.com/datasets/ahmedmohamed2003/quality-of-life-for-each-country
 
-# Data Cleaning & transformation
+## Data-Cleaning-and-transformation
 Data was cleaned using MysQL. Codes, below
 
 ### SQL Query 1
@@ -90,10 +90,10 @@ SELECT *
 FROM 
 	quality_of_life.qol_africa;
  ```
-# Exploratory Analysis
+## Exploratory-Analysis
 Some queries were run to find anwers to series of questions that provides better understanding of the data. These queries were executed to explore details regarding of the seven(7) indicators used for measuring the quality of life.
 
-### SQL Query 4 (cost of living)
+### SQL Query 4 (Analysis on cost of living)
 ```sql
 -- ANALYSIS ON COST OF LIVING
 		-- average cost of living for entire Africa
@@ -137,3 +137,95 @@ Some queries were run to find anwers to series of questions that provides better
 		WHERE `Cost of Living Value` > 0
 		ORDER BY `Cost of Living Value` DESC;
 ```
+## SQL Query 5 (Anaysis on Safety Index)
+```sql
+-- ANALYSIS ON SAFETY INDEX 
+		-- average safety index for entire Africa
+		SELECT AVG(`Safety Value`) AS 'average_Safety_Value(Africa)'
+		FROM quality_of_life.qol_africa;
+
+		-- average Safety Value for western Africa
+		SELECT AVG(`Safety Value`) AS 'average_Safety Value(Western Africa) '
+		FROM quality_of_life.qol_africa
+		WHERE sub_region = "Western Africa";
+
+		-- average Safety Value for Eastern Africa
+		SELECT AVG(`Safety Value`) AS 'average_Safety Value(Eastern Africa) '
+		FROM quality_of_life.qol_africa
+		WHERE sub_region = "Eastern Africa";
+
+		-- average Safety Value for Northern Africa
+		SELECT AVG(`Safety Value`) AS 'average_Safety Value(Northern Africa) '
+		FROM quality_of_life.qol_africa
+		WHERE sub_region = "Northern Africa";
+
+		-- average Safety Value for Southern Africa
+		SELECT AVG(`Safety Value`) AS 'average_Safety Value(Southern Africa) '
+		FROM quality_of_life.qol_africa
+		WHERE sub_region = "Southern Africa";
+
+		-- average Safety Value for Central Africa
+		SELECT AVG(`Safety Value`) AS 'average_Safety Value(Central Africa) '
+		FROM quality_of_life.qol_africa
+		WHERE sub_region = "Central Africa";
+
+		-- Finding country with the lowest Safety Value and its corresponding sub-region
+		SELECT country, (`Safety Value`), sub_region
+		FROM quality_of_life.qol_africa
+		WHERE `Safety Value` > 0
+		ORDER BY `Safety Value`ASC;
+
+		-- Finding country with the highest Safety Value and its corresponding sub-region
+		SELECT country, (`Safety Value`), sub_region
+		FROM quality_of_life.qol_africa
+		WHERE `Safety Value` > 0
+		ORDER BY `Safety Value` DESC;
+```
+
+## SQL Query 6 (Analysis on healthcare index)
+
+```sql
+-- ANALYSIS ON HEALTHCARE INDEX
+		-- average healthcare index for entire Africa
+		SELECT AVG(`Health Care Value`) AS 'Average Health Care Value(Africa)'
+		FROM quality_of_life.qol_africa;
+
+		-- average Health Care Value for western Africa
+		SELECT AVG(`Health Care Value`) AS 'average Health Care Value(Western Africa) '
+		FROM quality_of_life.qol_africa
+		WHERE sub_region = "Western Africa";
+
+		-- average Health Care Value for Eastern Africa
+		SELECT AVG(`Health Care Value`) AS 'average_Health Care Value(Eastern Africa) '
+		FROM quality_of_life.qol_africa
+		WHERE sub_region = "Eastern Africa";
+
+		-- average Health Care Value for Northern Africa
+		SELECT AVG(`Health Care Value`) AS 'average_Health Care Value(Northern Africa) '
+		FROM quality_of_life.qol_africa
+		WHERE sub_region = "Northern Africa";
+
+		-- average Health Care Value for Southern Africa
+		SELECT AVG(`Health Care Value`) AS 'average_Health Care Value(Southern Africa) '
+		FROM quality_of_life.qol_africa
+		WHERE sub_region = "Southern Africa";
+
+		-- average Health Care Value for Central Africa
+		SELECT AVG(`Health Care Value`) AS 'average_Health Care Value(Central Africa) '
+		FROM quality_of_life.qol_africa
+		WHERE sub_region = "Central Africa";
+
+		-- Finding country with the lowest Health Care Value and its corresponding sub-region
+		SELECT country, (`Health Care Value`), sub_region
+		FROM quality_of_life.qol_africa
+		WHERE `Health Care Value` > 0
+		ORDER BY `Health Care Value`ASC;
+
+		-- Finding country with the highest Health Care Value and its corresponding sub-region
+		SELECT country, (`Health Care Value`), sub_region
+		FROM quality_of_life.qol_africa
+		WHERE `Health Care Value` > 0
+		ORDER BY `Health Care Value` DESC;
+```
+
+## Final-Dashboard-Output
