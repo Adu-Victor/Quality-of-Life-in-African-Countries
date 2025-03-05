@@ -252,4 +252,4 @@ Data was visualized via Interactive Power BI dashboard.
 ![Final Dashboard](Assets/Images/QoL-Dashboard.png)
 
 ## Dash preview
-![Dashboard preview](Assets/Images/QoL-Dashboard-preview.gif)
+<iframe title="Quality of Life_Africa" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=8cd587e3-2c8b-4a29-b645-495081efc19f&autoAuth=true&ctid=36e7f362-5061-4fc5-8574-beb99508a667" frameborder="0" allowFullScreen="true"></iframe>
