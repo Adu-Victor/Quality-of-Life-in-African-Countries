@@ -4,15 +4,15 @@
 
 # Table of Content
 
-- [Project Objectives](# Project Objectives)
-- [Data Source](#Data Source)
+- [Project Objectives](#Objectives)
+- [Data Source](#Data-Source)
 - [Data cleaning & transformation](#Data Cleaning & transformation)
 - [Exploratory Analysis](#Exploratory Analysis)
 - [Dashboard Output](#Final Dashboard Output)
 - [Summary of Insight](#roject Insight)
 
 
-# Project Objectives
+# Objectives
 1. Clean the data
 2. Create a new column for sub-regions corresponding to each of the countries
 3. Extract only the countries from the African Continent
