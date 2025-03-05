@@ -241,3 +241,5 @@ Avg Safety Value = AVERAGE(Quality_of_life_africa[Safety Value])
 Avg traffic commute time = AVERAGE(Quality_of_life_africa[Traffic Commute Time Value])
 ```
 ## Final-Dashboard-Output
+Data was visualized via Interactive Power BI dashboard. 
+![Final Dashboard](Assets/Images/QoL Dashboard.png, "Dashboard for Quality of Life in African Countries")
