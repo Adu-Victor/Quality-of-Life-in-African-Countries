@@ -8,6 +8,7 @@
 - [Data Source](#Data-Source)
 - [Data cleaning & transformation](#Data-Cleaning-transformation)
 - [Exploratory Analysis](#Exploratory-Analysis)
+- [Dax measures Used](#Dax-Measures Used)
 - [Dashboard Output](#Final-Dashboard-Output)
 - [Summary of Insight](#roject Insight)
 
@@ -228,4 +229,8 @@ Some queries were run to find anwers to series of questions that provides better
 		ORDER BY `Health Care Value` DESC;
 ```
 
+## Dax Measures Used
+```Dax
+Avg CoL = AVERAGE(Quality_of_life_africa[Cost of Living Value])
+```
 ## Final-Dashboard-Output
