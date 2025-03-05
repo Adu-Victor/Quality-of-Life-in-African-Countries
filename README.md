@@ -252,4 +252,4 @@ Data was visualized via Interactive Power BI dashboard.
 ![Final Dashboard](Assets/Images/QoL-Dashboard.png)
 
 ## Dash preview
-![Dashboard preview](#Assets/Images/QoL-Dashboard-preview.gif)
+![Dashboard preview](Assets/Images/QoL-Dashboard-preview.gif)
