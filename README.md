@@ -11,7 +11,7 @@
 - [Exploratory Analysis](#Exploratory-Analysis)
 - [Dax measures Used](#Dax-Measures-Used)
 - [Dashboard Output](#Final-Dashboard-Output)
-- [Summary of Insight](#roject Insight)
+- [Insight](#Project-Insight)
 
 
 ## Objectives
@@ -248,8 +248,11 @@ Avg Safety Value = AVERAGE(Quality_of_life_africa[Safety Value])
 Avg traffic commute time = AVERAGE(Quality_of_life_africa[Traffic Commute Time Value])
 ```
 ## Final-Dashboard-Output
-Data was visualized via Interactive Power BI dashboard. 
+Data was visualized via Interactive Power BI dashboard. This how the dashboard looks like. 
+
 ![Final Dashboard](Assets/Images/QoL-Dashboard.png)
 
-## Dash preview
-<iframe title="Quality of Life_Africa" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=8cd587e3-2c8b-4a29-b645-495081efc19f&autoAuth=true&ctid=36e7f362-5061-4fc5-8574-beb99508a667" frameborder="0" allowFullScreen="true"></iframe>
+You can also use this [link](https://app.powerbi.com/reportEmbed?reportId=8cd587e3-2c8b-4a29-b645-495081efc19f&autoAuth=true&ctid=36e7f362-5061-4fc5-8574-beb99508a667) to explore the **LIVE** dashboard and appreciate its interactiveness.
+
+## Project Insight
+
