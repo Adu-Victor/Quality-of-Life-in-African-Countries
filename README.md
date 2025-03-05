@@ -76,7 +76,7 @@ WHERE country IN ('Botswana','Eswatini', 'Gambia','Lesotho', 'Madagascar', 'Mala
 ```
 
 ### SQL Query 3
-'''sql
+```sql
 -- extracting Only African countries from the data
 CREATE VIEW qol_Africa AS
 	SELECT *
@@ -90,5 +90,49 @@ SELECT *
 FROM 
 	quality_of_life.qol_africa;
  ```
-
 # Exploratory Analysis
+Some queries were run to find anwers to series of questions that provides better understanding of the data. These queries were executed to explore details regarding of the seven(7) indicators used for measuring the quality of life.
+
+```sql
+-- ANALYSIS ON COST OF LIVING
+		-- average cost of living for entire Africa
+		SELECT AVG(`Cost of Living Value`) AS 'average_cost_of_living(Africa) '
+		FROM quality_of_life.qol_africa;
+
+		-- average cost of living for western Africa
+		SELECT AVG(`Cost of Living Value`) AS 'average_cost_of_living(Western Africa) '
+		FROM quality_of_life.qol_africa
+		WHERE sub_region = "Western Africa";
+
+		-- average cost of living for Eastern Africa
+		SELECT AVG(`Cost of Living Value`) AS 'average_cost_of_living(Eastern Africa) '
+		FROM quality_of_life.qol_africa
+		WHERE sub_region = "Eastern Africa";
+
+		-- average cost of living for Northern Africa
+		SELECT AVG(`Cost of Living Value`) AS 'average_cost_of_living(Northern Africa) '
+		FROM quality_of_life.qol_africa
+		WHERE sub_region = "Northern Africa";
+
+		-- average cost of living for Southern Africa
+		SELECT AVG(`Cost of Living Value`) AS 'average_cost_of_living(Southern Africa) '
+		FROM quality_of_life.qol_africa
+		WHERE sub_region = "Southern Africa";
+
+		-- average cost of living for Central Africa
+		SELECT AVG(`Cost of Living Value`) AS 'average_cost_of_living(Central Africa) '
+		FROM quality_of_life.qol_africa
+		WHERE sub_region = "Central Africa";
+
+		-- Finding country with the lowest cost of living and its corresponding sub-region
+		SELECT country, (`Cost of Living Value`), sub_region
+		FROM quality_of_life.qol_africa
+		WHERE `Cost of Living Value` > 0
+		ORDER BY `Cost of Living Value` ASC;
+
+		-- Finding country with the highest cost of living and its corresponding sub-region
+		SELECT country, (`Cost of Living Value`), sub_region
+		FROM quality_of_life.qol_africa
+		WHERE `Cost of Living Value` > 0
+		ORDER BY `Cost of Living Value` DESC;
+```
