@@ -1,9 +1,8 @@
-# Quality-of-Life-in-African-Countries
 ---
 ![Quality of Life](Assets/Images/map-of-africa.png)
 
 ## Table of Content
-
+- [Introduction](#Introduction)
 - [Project Objectives](#Objectives)
 - [Data Source](#Data-Source)
 - [Tools used](#Tools-Used)
@@ -13,7 +12,11 @@
 - [Dashboard Output](#Final-Dashboard-Output)
 - [Insight](#Project-Insight)
 
+## Introduction
+This portofolio project was targeted at providing solution for people who want to travel, invest or get comprehensive knowledge about the Quality of Life in African Sataes. Insights derived form the projects can help travels or investors in making data-driven decisions about the choice of country to visit or invest. Quality of life was measured with seven (7) indicators namely: **Cost of living, Safety Index, Healthcare Quality Index, Purchasing power, Property price to income ratio, pollution level and traffic commute time.**  
 
+Insights extracted indicate that only one African country (South Africa) had **high** qaulity of life out of 53 countries. Djibouti had the highest cost of living whiles Libya had the lowest. Avearge Cost of living in African was 29.63/100. The safest country to live in Africa was Sao Tome and Principe. Guinea had a perfect 👌 healthcare index. Quality of life in African states varies is highly dependent on these indicators. 
+ 
 ## Objectives
 1. Clean the data
 2. Create a new column for sub-regions corresponding to each of the countries
