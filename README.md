@@ -1,6 +1,6 @@
 # Quality-of-Life-in-African-Countries
 ---
-![Quality-of-Life-in-Africa](https://github.com/Adu-Victor/Quality-of-Life-in-African-Countries/blob/main/Assets/Images/map%20of%20africa.png)
+![Quality of Life](https://github.com/Adu-Victor/Quality-of-Life-in-African-Countries/blob/main/Assets/Images/map%20of%20africa.png)
 
 # Table of Content
 
