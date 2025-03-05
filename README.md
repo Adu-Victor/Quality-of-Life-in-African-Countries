@@ -242,4 +242,4 @@ Avg traffic commute time = AVERAGE(Quality_of_life_africa[Traffic Commute Time V
 ```
 ## Final-Dashboard-Output
 Data was visualized via Interactive Power BI dashboard. 
-![Final Dashboard](Assets/Images/QoL Dashboard.png, "Dashboard for Quality of Life in African Countries")
+![Final Dashboard](Assets/Images/QoL Dashboard.png "Dashboard for Quality of Life in African Countries")
