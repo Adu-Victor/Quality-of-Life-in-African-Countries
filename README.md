@@ -93,6 +93,7 @@ FROM
 # Exploratory Analysis
 Some queries were run to find anwers to series of questions that provides better understanding of the data. These queries were executed to explore details regarding of the seven(7) indicators used for measuring the quality of life.
 
+### SQL Query 4 (cost of living)
 ```sql
 -- ANALYSIS ON COST OF LIVING
 		-- average cost of living for entire Africa
