@@ -230,7 +230,14 @@ Some queries were run to find anwers to series of questions that provides better
 ```
 
 ## Dax Measures Used
+The following Dax Measures were calculated used as KPI on the dashboard.
 ```Dax
 Avg CoL = AVERAGE(Quality_of_life_africa[Cost of Living Value])
+Avg Healthcare Value = AVERAGE(Quality_of_life_africa[Health Care Value])
+Avg pollution level = AVERAGE(Quality_of_life_africa[Pollution Value])
+Avg property price to income = AVERAGE(Quality_of_life_africa[Property Price to Income Value])
+Avg purchasing p = AVERAGE(Quality_of_life_africa[Purchasing Power Value])
+Avg Safety Value = AVERAGE(Quality_of_life_africa[Safety Value])
+Avg traffic commute time = AVERAGE(Quality_of_life_africa[Traffic Commute Time Value])
 ```
 ## Final-Dashboard-Output
