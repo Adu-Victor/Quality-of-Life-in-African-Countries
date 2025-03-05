@@ -7,7 +7,7 @@
 - [Project Objectives](#Objectives)
 - [Data Source](#Data-Source)
 - [Tools used](#Tools-Used)
-- [Data cleaning and transformation](#Data-Cleaning and transformation)
+- [Data cleaning and transformation](#Data-Cleaning-and-transformation)
 - [Exploratory Analysis](#Exploratory-Analysis)
 - [Dax measures Used](#Dax-Measures-Used)
 - [Dashboard Output](#Final-Dashboard-Output)
