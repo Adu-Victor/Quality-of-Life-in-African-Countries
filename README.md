@@ -7,11 +7,11 @@
 - [Project Objectives](#Objectives)
 - [Data Source](#Data-Source)
 - [Tools used](#Tools-Used)
-- [Data cleaning & transformation](#Data-Cleaning-transformation)
+- [Data cleaning and transformation](#Data-Cleaning and transformation)
 - [Exploratory Analysis](#Exploratory-Analysis)
 - [Dax measures Used](#Dax-Measures-Used)
 - [Dashboard Output](#Final-Dashboard-Output)
-- [Insight & Conclusion](#Project-Insight-&-Conclusion)
+- [Insight & Conclusion](#Project-Insight-and-Conclusion)
 
 ## Introduction
 This portofolio project was targeted at providing solution for people who want to travel, invest or get comprehensive knowledge about the Quality of Life in African Sataes. Insights derived form the projects can help travels or investors in making data-driven decisions about the choice of country to visit or invest. Quality of life was measured with seven (7) indicators namely: **Cost of living, Safety Index, Healthcare Quality Index, Purchasing power, Property price to income ratio, pollution level and traffic commute time.**  
@@ -258,5 +258,5 @@ Data was visualized via Interactive Power BI dashboard. This how the dashboard l
 
 You can also use this [link](https://app.powerbi.com/reportEmbed?reportId=8cd587e3-2c8b-4a29-b645-495081efc19f&autoAuth=true&ctid=36e7f362-5061-4fc5-8574-beb99508a667) to explore the **LIVE** dashboard and appreciate its interactiveness.
 
-## Project Insight & Conclusion
+## Project Insight and Conclusion
 
