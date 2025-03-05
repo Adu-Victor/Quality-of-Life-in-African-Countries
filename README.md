@@ -4,7 +4,7 @@
 
 # Table of Content
 
-- [Project Objectives](#Project Objectives)
+- [Project Objectives](# Project Objectives)
 - [Data Source](#Data Source)
 - [Data cleaning & transformation](#Data Cleaning & transformation)
 - [Exploratory Analysis](#Exploratory Analysis)
