@@ -1,4 +1,4 @@
-# Portfolio  Project 
+# Data Portfolio: Quality of Life in African Countries 
 ---
 ![Quality of Life](Assets/Images/map-of-africa.png)
 
